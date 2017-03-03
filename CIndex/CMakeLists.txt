@@ -9,6 +9,7 @@ AUX_SOURCE_DIRECTORY(. SRC_DIR)
 #AUX_SOURCE_DIRECTORY(../src SRC_DIR_DARKNET)
 INCLUDE_DIRECTORIES(/usr/local/cuda/include)
 INCLUDE_DIRECTORIES(/usr/local/cudnn-v5/include)
+INCLUDE_DIRECTORIES(/usr/include/python2.7)
 LINK_DIRECTORIES(/usr/local/cuda/lib64)
 LINK_DIRECTORIES(/usr/local/cudnn-v5/lib64)
 

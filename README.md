@@ -1,4 +1,4 @@
-##### use
+###### use######
 1. **complie darknet as a share lib** 
 make
 2. **make darknet python export**
@@ -6,11 +6,11 @@ cd CIndex; cmake CMakeLists.txt; make
 3. **test darknet python export**
 cd ..; python test.py
 
-###### tips
+###### tips ######
 * change test gpu id
 fix src/cuda.c line 1 
 * other darknet python export
-[]()https://github.com/SidHard/py-yolo2.git
+[py_yolov2]()https://github.com/SidHard/py-yolo2.git
   
 ![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
 
